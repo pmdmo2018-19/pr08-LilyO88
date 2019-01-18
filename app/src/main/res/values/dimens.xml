@@ -1,3 +1,4 @@
 <resources>
-    <!-- TODO -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="paddingTextLorem">16dp</dimen>
 </resources>

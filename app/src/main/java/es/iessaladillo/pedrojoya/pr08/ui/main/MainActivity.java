@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Load
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+        setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             FragmentUtils.replaceFragment(getSupportFragmentManager(),
                             R.id.flContainerMainActivity, MainFragment.newInstance(), MainFragment.class.getSimpleName());

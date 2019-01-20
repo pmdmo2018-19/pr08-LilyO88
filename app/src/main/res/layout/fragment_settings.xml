@@ -7,8 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- AQUÍ PODEMOS PONER EL TIPO DE TOOLBAR QUE QUERAMOS, POR EJEMPLO
-         DENTRO DE UNA AppBarLayout -->
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayoutSettings"
         android:layout_width="match_parent"
@@ -23,9 +21,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- AQUÍ ES DONDE SE MOSTRARÁN AUTOMÁTICAMENTE LAS PREFERENCIAS. ES MUY IMPORTANTE
-         QUE EL ATRIBUTO android:id TENGA EXACTAMENTE ESTE VALOR. LO DE targetApi ES
-         SIMPLEMENTE PARA QUE NO SE QUEJE -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
